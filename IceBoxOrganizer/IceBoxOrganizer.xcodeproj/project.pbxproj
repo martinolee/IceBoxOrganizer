@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		723A9E1123EAB507001C9410 /* MaterialInfoDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723A9E1023EAB507001C9410 /* MaterialInfoDatePicker.swift */; };
+		723A9E1323EAE1B0001C9410 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723A9E1223EAE1B0001C9410 /* CategoryView.swift */; };
+		723A9E1523EAE1BC001C9410 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723A9E1423EAE1BC001C9410 /* CategoryViewController.swift */; };
+		723A9E1723EAEB61001C9410 /* CategoryViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723A9E1623EAEB61001C9410 /* CategoryViewDelegate.swift */; };
+		723A9E1923EAECDD001C9410 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723A9E1823EAECDD001C9410 /* Category.swift */; };
+		72804B2223EBE64100B6ADC5 /* CategoryCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72804B2123EBE64100B6ADC5 /* CategoryCollectionHeaderView.swift */; };
+		7283D4C123EAAF6000E731AA /* DetailMaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7283D4C023EAAF6000E731AA /* DetailMaterialView.swift */; };
+		7284D00C23E83C4D00DBAEB9 /* IceboxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7284D00B23E83C4D00DBAEB9 /* IceboxButton.swift */; };
+		7288D24423EA6D1F001F3388 /* Icebox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7288D24223EA6D1F001F3388 /* Icebox.xcdatamodeld */; };
+		72899AC223E7BA2F008F51FA /* MaterialsInIceboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72899AC123E7BA2F008F51FA /* MaterialsInIceboxView.swift */; };
+		72899AC423E7BA4B008F51FA /* MaterialsInIceboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72899AC323E7BA4B008F51FA /* MaterialsInIceboxViewController.swift */; };
+		72899AC623E7BBB1008F51FA /* MaterialsInIceBoxViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72899AC523E7BBB1008F51FA /* MaterialsInIceBoxViewDelegate.swift */; };
+		72899AC823E7BF7C008F51FA /* MaterialsInIceBoxCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72899AC723E7BF7C008F51FA /* MaterialsInIceBoxCollectionViewCell.swift */; };
+		72899ACA23E7CFF2008F51FA /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72899AC923E7CFF2008F51FA /* Singleton.swift */; };
+		72CFD24523EA8C66005585F4 /* DetailMaterialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CFD24423EA8C66005585F4 /* DetailMaterialViewController.swift */; };
+		72CFD24923EA8D2C005585F4 /* ColorZip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CFD24823EA8D2C005585F4 /* ColorZip.swift */; };
+		72CFD24B23EA96F1005585F4 /* DetailMaterialViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CFD24A23EA96F1005585F4 /* DetailMaterialViewDelegate.swift */; };
+		72CFD24D23EA9CB7005585F4 /* MaterialInfoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CFD24C23EA9CB7005585F4 /* MaterialInfoTextField.swift */; };
+		72DD079123ED3A12007219C1 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DD079023ED3A11007219C1 /* LaunchScreenViewController.swift */; };
+		72DD079323ED4733007219C1 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DD079223ED4733007219C1 /* UIViewExtension.swift */; };
+		72E11EFE23E42FB100A9D28E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E11EFD23E42FB100A9D28E /* AppDelegate.swift */; };
+		72E11F0723E42FB300A9D28E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72E11F0623E42FB300A9D28E /* Assets.xcassets */; };
+		72E11F0A23E42FB300A9D28E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72E11F0823E42FB300A9D28E /* LaunchScreen.storyboard */; };
+		72E11F1823E4304800A9D28E /* Icebox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E11F1723E4304800A9D28E /* Icebox.swift */; };
+		72E11F1A23E4306600A9D28E /* IceboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E11F1923E4306600A9D28E /* IceboxView.swift */; };
+		72E11F1C23E4307100A9D28E /* IceboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E11F1B23E4307100A9D28E /* IceboxViewController.swift */; };
+		72E11F2523E438E800A9D28E /* IceboxViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E11F2423E438E800A9D28E /* IceboxViewDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		723A9E1023EAB507001C9410 /* MaterialInfoDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialInfoDatePicker.swift; sourceTree = "<group>"; };
+		723A9E1223EAE1B0001C9410 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		723A9E1423EAE1BC001C9410 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		723A9E1623EAEB61001C9410 /* CategoryViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewDelegate.swift; sourceTree = "<group>"; };
+		723A9E1823EAECDD001C9410 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		72804B2123EBE64100B6ADC5 /* CategoryCollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionHeaderView.swift; sourceTree = "<group>"; };
+		7283D4C023EAAF6000E731AA /* DetailMaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailMaterialView.swift; sourceTree = "<group>"; };
+		7284D00B23E83C4D00DBAEB9 /* IceboxButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceboxButton.swift; sourceTree = "<group>"; };
+		7288D24323EA6D1F001F3388 /* Icebox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Icebox.xcdatamodel; sourceTree = "<group>"; };
+		72899AC123E7BA2F008F51FA /* MaterialsInIceboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialsInIceboxView.swift; sourceTree = "<group>"; };
+		72899AC323E7BA4B008F51FA /* MaterialsInIceboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialsInIceboxViewController.swift; sourceTree = "<group>"; };
+		72899AC523E7BBB1008F51FA /* MaterialsInIceBoxViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialsInIceBoxViewDelegate.swift; sourceTree = "<group>"; };
+		72899AC723E7BF7C008F51FA /* MaterialsInIceBoxCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialsInIceBoxCollectionViewCell.swift; sourceTree = "<group>"; };
+		72899AC923E7CFF2008F51FA /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		72CFD24423EA8C66005585F4 /* DetailMaterialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailMaterialViewController.swift; sourceTree = "<group>"; };
+		72CFD24823EA8D2C005585F4 /* ColorZip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorZip.swift; sourceTree = "<group>"; };
+		72CFD24A23EA96F1005585F4 /* DetailMaterialViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMaterialViewDelegate.swift; sourceTree = "<group>"; };
+		72CFD24C23EA9CB7005585F4 /* MaterialInfoTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialInfoTextField.swift; sourceTree = "<group>"; };
+		72DD079023ED3A11007219C1 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
+		72DD079223ED4733007219C1 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		72E11EFA23E42FB100A9D28E /* 냉장고를 채워져.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "냉장고를 채워져.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72E11EFD23E42FB100A9D28E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72E11F0623E42FB300A9D28E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72E11F0923E42FB300A9D28E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72E11F0B23E42FB300A9D28E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72E11F1723E4304800A9D28E /* Icebox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icebox.swift; sourceTree = "<group>"; };
+		72E11F1923E4306600A9D28E /* IceboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceboxView.swift; sourceTree = "<group>"; };
+		72E11F1B23E4307100A9D28E /* IceboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceboxViewController.swift; sourceTree = "<group>"; };
+		72E11F2423E438E800A9D28E /* IceboxViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceboxViewDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72E11EF723E42FB100A9D28E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7284D00A23E83C2900DBAEB9 /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				7284D00B23E83C4D00DBAEB9 /* IceboxButton.swift */,
+				72CFD24C23EA9CB7005585F4 /* MaterialInfoTextField.swift */,
+				723A9E1023EAB507001C9410 /* MaterialInfoDatePicker.swift */,
+				72804B2123EBE64100B6ADC5 /* CategoryCollectionHeaderView.swift */,
+				72DD079223ED4733007219C1 /* UIViewExtension.swift */,
+			);
+			path = SubView;
+			sourceTree = "<group>";
+		};
+		72E11EF123E42FB100A9D28E = {
+			isa = PBXGroup;
+			children = (
+				72E11EFC23E42FB100A9D28E /* IceBoxOrganizer */,
+				72E11EFB23E42FB100A9D28E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72E11EFB23E42FB100A9D28E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72E11EFA23E42FB100A9D28E /* 냉장고를 채워져.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72E11EFC23E42FB100A9D28E /* IceBoxOrganizer */ = {
+			isa = PBXGroup;
+			children = (
+				72E11F1123E4300500A9D28E /* Delegate */,
+				72E11F1223E4300800A9D28E /* Model */,
+				72E11F1323E4300C00A9D28E /* View */,
+				72E11F1423E4300F00A9D28E /* Controller */,
+				72CFD24823EA8D2C005585F4 /* ColorZip.swift */,
+				72E11F0623E42FB300A9D28E /* Assets.xcassets */,
+				72E11F0823E42FB300A9D28E /* LaunchScreen.storyboard */,
+				72E11F0B23E42FB300A9D28E /* Info.plist */,
+			);
+			path = IceBoxOrganizer;
+			sourceTree = "<group>";
+		};
+		72E11F1123E4300500A9D28E /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				72E11EFD23E42FB100A9D28E /* AppDelegate.swift */,
+				72E11F2423E438E800A9D28E /* IceboxViewDelegate.swift */,
+				72899AC523E7BBB1008F51FA /* MaterialsInIceBoxViewDelegate.swift */,
+				72CFD24A23EA96F1005585F4 /* DetailMaterialViewDelegate.swift */,
+				723A9E1623EAEB61001C9410 /* CategoryViewDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		72E11F1223E4300800A9D28E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				72E11F1723E4304800A9D28E /* Icebox.swift */,
+				72899AC923E7CFF2008F51FA /* Singleton.swift */,
+				7288D24223EA6D1F001F3388 /* Icebox.xcdatamodeld */,
+				723A9E1823EAECDD001C9410 /* Category.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		72E11F1323E4300C00A9D28E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				72E11F1923E4306600A9D28E /* IceboxView.swift */,
+				72899AC123E7BA2F008F51FA /* MaterialsInIceboxView.swift */,
+				7283D4C023EAAF6000E731AA /* DetailMaterialView.swift */,
+				723A9E1223EAE1B0001C9410 /* CategoryView.swift */,
+				7284D00A23E83C2900DBAEB9 /* SubView */,
+				72E11F1F23E4324300A9D28E /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		72E11F1423E4300F00A9D28E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				72DD079023ED3A11007219C1 /* LaunchScreenViewController.swift */,
+				72E11F1B23E4307100A9D28E /* IceboxViewController.swift */,
+				72899AC323E7BA4B008F51FA /* MaterialsInIceboxViewController.swift */,
+				72CFD24423EA8C66005585F4 /* DetailMaterialViewController.swift */,
+				723A9E1423EAE1BC001C9410 /* CategoryViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		72E11F1F23E4324300A9D28E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				72899AC723E7BF7C008F51FA /* MaterialsInIceBoxCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72E11EF923E42FB100A9D28E /* IceBoxOrganizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72E11F0E23E42FB300A9D28E /* Build configuration list for PBXNativeTarget "IceBoxOrganizer" */;
+			buildPhases = (
+				72E11EF623E42FB100A9D28E /* Sources */,
+				72E11EF723E42FB100A9D28E /* Frameworks */,
+				72E11EF823E42FB100A9D28E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IceBoxOrganizer;
+			productName = IceBoxOrganizer;
+			productReference = 72E11EFA23E42FB100A9D28E /* 냉장고를 채워져.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72E11EF223E42FB100A9D28E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Soohan Lee";
+				TargetAttributes = {
+					72E11EF923E42FB100A9D28E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 72E11EF523E42FB100A9D28E /* Build configuration list for PBXProject "IceBoxOrganizer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72E11EF123E42FB100A9D28E;
+			productRefGroup = 72E11EFB23E42FB100A9D28E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72E11EF923E42FB100A9D28E /* IceBoxOrganizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72E11EF823E42FB100A9D28E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72E11F0A23E42FB300A9D28E /* LaunchScreen.storyboard in Resources */,
+				72E11F0723E42FB300A9D28E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72E11EF623E42FB100A9D28E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723A9E1523EAE1BC001C9410 /* CategoryViewController.swift in Sources */,
+				72899AC623E7BBB1008F51FA /* MaterialsInIceBoxViewDelegate.swift in Sources */,
+				72899AC423E7BA4B008F51FA /* MaterialsInIceboxViewController.swift in Sources */,
+				723A9E1123EAB507001C9410 /* MaterialInfoDatePicker.swift in Sources */,
+				72CFD24D23EA9CB7005585F4 /* MaterialInfoTextField.swift in Sources */,
+				72899AC223E7BA2F008F51FA /* MaterialsInIceboxView.swift in Sources */,
+				723A9E1323EAE1B0001C9410 /* CategoryView.swift in Sources */,
+				7288D24423EA6D1F001F3388 /* Icebox.xcdatamodeld in Sources */,
+				72899ACA23E7CFF2008F51FA /* Singleton.swift in Sources */,
+				72E11F1A23E4306600A9D28E /* IceboxView.swift in Sources */,
+				72DD079123ED3A12007219C1 /* LaunchScreenViewController.swift in Sources */,
+				72CFD24B23EA96F1005585F4 /* DetailMaterialViewDelegate.swift in Sources */,
+				72E11F2523E438E800A9D28E /* IceboxViewDelegate.swift in Sources */,
+				723A9E1723EAEB61001C9410 /* CategoryViewDelegate.swift in Sources */,
+				7284D00C23E83C4D00DBAEB9 /* IceboxButton.swift in Sources */,
+				72E11F1823E4304800A9D28E /* Icebox.swift in Sources */,
+				72E11F1C23E4307100A9D28E /* IceboxViewController.swift in Sources */,
+				72899AC823E7BF7C008F51FA /* MaterialsInIceBoxCollectionViewCell.swift in Sources */,
+				72E11EFE23E42FB100A9D28E /* AppDelegate.swift in Sources */,
+				7283D4C123EAAF6000E731AA /* DetailMaterialView.swift in Sources */,
+				72DD079323ED4733007219C1 /* UIViewExtension.swift in Sources */,
+				72CFD24523EA8C66005585F4 /* DetailMaterialViewController.swift in Sources */,
+				72804B2223EBE64100B6ADC5 /* CategoryCollectionHeaderView.swift in Sources */,
+				72CFD24923EA8D2C005585F4 /* ColorZip.swift in Sources */,
+				723A9E1923EAECDD001C9410 /* Category.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		72E11F0823E42FB300A9D28E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72E11F0923E42FB300A9D28E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72E11F0C23E42FB300A9D28E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72E11F0D23E42FB300A9D28E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72E11F0F23E42FB300A9D28E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H2F5DM786H;
+				INFOPLIST_FILE = IceBoxOrganizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soohan.IceBoxOrganizer;
+				PRODUCT_NAME = "냉장고를 채워져";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72E11F1023E42FB300A9D28E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H2F5DM786H;
+				INFOPLIST_FILE = IceBoxOrganizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soohan.IceBoxOrganizer;
+				PRODUCT_NAME = "냉장고를 채워져";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72E11EF523E42FB100A9D28E /* Build configuration list for PBXProject "IceBoxOrganizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72E11F0C23E42FB300A9D28E /* Debug */,
+				72E11F0D23E42FB300A9D28E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72E11F0E23E42FB300A9D28E /* Build configuration list for PBXNativeTarget "IceBoxOrganizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72E11F0F23E42FB300A9D28E /* Debug */,
+				72E11F1023E42FB300A9D28E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7288D24223EA6D1F001F3388 /* Icebox.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7288D24323EA6D1F001F3388 /* Icebox.xcdatamodel */,
+			);
+			currentVersion = 7288D24323EA6D1F001F3388 /* Icebox.xcdatamodel */;
+			path = Icebox.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 72E11EF223E42FB100A9D28E /* Project object */;
+}
